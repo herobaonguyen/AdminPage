@@ -1,0 +1,5 @@
+export const MainType = {
+    OPEN_LOADING: 'OPEN_LOADING',
+    CLOSE_LOADING: 'CLOSE_LOADING',
+    LOGIN_FAIL: 'LOGIN_FAIL',
+}

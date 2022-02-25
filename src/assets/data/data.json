@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Vo Van Minh",
+        "address": "Quan 1",
+        "role": "User",
+        "email": "vanminh@gmail.com"
+    },
+    
+    {
+        "id": 2,
+        "name": "Huynh An",
+        "address": "Quan 2",
+        "role": "User",
+        "email": "an@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Le Thi Kim Thoa",
+        "address": "Quan 5",
+        "role": "Admin",
+        "email": "ltkimthoa@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Minh Quan",
+        "address": "Quan 8",
+        "role": "User",
+        "email": "minhquan@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Le Hoang",
+        "address": "Quan 3",
+        "role": "User",
+        "email": "lehoang@gmail.com"
+    },
+    {
+        "id": 6,
+        "name": "Van Minh",
+        "address": "Quan 6",
+        "role": "User",
+        "email": "vanminh@gmail.com"
+    },
+    {
+        "id": 7,
+        "name": "Le Hoai An",
+        "address": "Quan 1",
+        "role": "Admin",
+        "email": "hoaian@gmail.com"
+    },
+    {
+        "id": 8,
+        "name": "Vo Minh Quan",
+        "address": "Quan 3",
+        "role": "User",
+        "email": "vominhquan@gmail.com"
+    },
+    {
+        "id": 9,
+        "name": "Nguyen An Tam",
+        "address": "Quan 2",
+        "role": "User",
+        "email": "antamnguyen@gmail.com"
+    },
+    {
+        "id": 10,
+        "name": "Hoai Le",
+        "address": "Quan 4",
+        "role": "User",
+        "email": "lehoai@gmail.com"
+    }
+]

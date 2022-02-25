@@ -1,0 +1,79 @@
+.login-page{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    height:100vh;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+
+    .login-page__container{
+        background-color: white;
+        border-radius: 15px;
+
+        .login-page__heading{
+            text-align: center;
+            padding-block: 20px;
+            border-bottom: 2px solid rgb(218, 215, 215);
+        }
+
+        .login-form{
+            width: 450px;
+            padding: 30px 45px;
+            padding-top: 10px;
+
+            .form-group{
+                display:flex;
+                justify-content: space-between;
+                margin-block: 20px;
+                align-items: center;
+                position:relative;
+                margin-top: 30px;
+                flex-direction: column;
+
+                input{
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 5px;
+                    border:0;
+                    border-bottom: 3px solid rgb(218, 215, 215);
+                    outline: none;
+                    transition: all .2s ease-in-out;
+
+                    &:focus,
+                    &:valid{
+                        border-bottom-color: #2980b9;
+                    }
+
+                   
+                }
+
+                label{
+                    position: absolute;
+                    
+                }
+
+              
+            }
+
+            button{
+                width: 100%; 
+                border: none;
+                background-color: #2980b9;
+                color: white;
+                padding-block: 13px;
+                border-radius: 10px;
+                margin-top: 15px;
+                font-size: 15px;
+                transition: all .2s ease-in-out;
+                border: 2px solid transparent;
+
+                &:hover{
+                    border: 2px solid #2980b9;
+                    color: black;
+                    background-color:white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

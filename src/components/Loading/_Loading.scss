@@ -1,0 +1,37 @@
+.loading-display{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    z-index: 9999;
+
+ 
+    span{
+        background-color:transparent;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 8px solid transparent;
+        border-bottom-color: #2980b9;
+        border-left-color: #2980b9;
+        border-right-color: #2980b9;
+        animation: spinnings .8s linear infinite;
+    }
+    
+    @keyframes spinnings{
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
