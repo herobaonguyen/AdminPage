@@ -15,7 +15,7 @@ import { AdminType } from '../../redux/constant/AdminType/AdminType';
 
 export const AdminPage = () => {
 
-  const { userList, admin } = useSelector(state => state.AdminReducer)
+  const { userList } = useSelector(state => state.AdminReducer)
   const navigate = useNavigate()
   const dispatch = useDispatch()
 
@@ -101,8 +101,8 @@ export const AdminPage = () => {
               <div className="info-container">
                 <img src={require('../../assets/avatar/tải xuống.png')} />
                 <div className="admin-info__detail">
-                  <p>Name: {admin.hoTen}</p>
-                  <p>Email: {admin.email}</p>
+                  <p>Name: Nguyen</p>
+                  <p>Email: nguyen@gmail.com</p>
                   <p>Role: Admin</p>
                 </div>
               </div>

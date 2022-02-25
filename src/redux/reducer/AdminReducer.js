@@ -5,7 +5,6 @@ import { AdminType } from '../constant/AdminType/AdminType'
 
 const stateDefault = {
     userList,
-    admin: JSON.parse(localStorage.getItem('userLogin'))
 }
 
 export const AdminReducer = (state = stateDefault, action) => {
